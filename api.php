@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 
 // Global Configs
-$smm_api_url = "https://my.smmgen.com/api/v2";                 // Main Upstream Provider API
-$smm_api_key = "2e53b57414dc722db3e2e2f9aaf723dc";             // Main Upstream Provider Key
+$smm_api_url = "https://smmsocialgenie.com/api/v2";                 // Main Upstream Provider API
+$smm_api_key = "e8a5ded6c8aceded359070ca6d4806cc";             // Main Upstream Provider Key
 
 $data_dir = __DIR__ . '/data';
 $users_file = "$data_dir/users.json";
